@@ -6,7 +6,7 @@ header{
 	border-bottom: 1px solid #CCCCCC;
 }
 
-header.logo{
+header .logo{
 	background-image: url("../images/logo.png");
 	height: 100px;
 	padding-left: 20px;

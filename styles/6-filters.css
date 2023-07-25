@@ -1,13 +1,15 @@
 /* External styling for 6-index.html*/
 .popover{
 background-color: #FAFAFA;
-width: 100%÷
+width: 100%;
 border: 1px solid #DDD;
 border-radius: 4px;
 line-height: normal;
 height: 200px;
-list-style: none;
 visibility: hidden;
+list-style-type: none;
+margin-top: 22px;
+margin-left: -41px;
 }
 
 .popover ul, .popover li{
@@ -23,12 +25,13 @@ visibility: hidden;
     height: 150%;
 }
 
-filters{
-    color: white;
+.filters{
+    background-color: white;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    position: relative;
 }
 
 button{
@@ -36,7 +39,7 @@ button{
     background-color: #FF5A5F;
     color: #FFFFFF;
     height: 48px;
-    width: 100%;
+    width: 30%;
     border: none;
     border-radius:4px;
     position: absolute;
@@ -47,17 +50,24 @@ button:hover{
     opacity: 0.9;
 }
 
-.locations, .amenities{
+.filters div{
+    float: left;
+    position: relative;
     height: 100%;
-    width: 25px;
+    width: 25%;
+    margin-left: 4%;
+    line-height: 6px;
+}
+
+.locations{
     border-right: 1px solid #DDD;
 }
 
-.locations h3, .amenities h3{
+.filters h3{
     font-weight: 600px;
 }
 
-.locations h4, .amenities h4{
+.filters h4{
     font-weight: 400px;
     font-size: 14px;
 }
